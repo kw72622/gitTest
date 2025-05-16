@@ -1,5 +1,6 @@
 package kr.co.himedia.controller;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import javax.annotation.Resource;
@@ -37,7 +38,7 @@ public class MainController {
 	// 신규개발
 	@PostMapping(value="/write")
 	public Map<String, Object> write() {
-		return null;
+		return new HashMap<String, Object>();
 	}
 	
 	@PostMapping(value="/update")

@@ -23,7 +23,7 @@ public class MainController {
 	@GetMapping(value="/list")
 	public String list() {
 		
-		return "";
+		return "{\"list\" : []}";
 	}
 	
 }

@@ -17,4 +17,11 @@ public class MainController {
 		return "{\"msg\":\"OK\"}";
 	}
 	
+	
+	@GetMapping(value="/list")
+	public String list() {
+		
+		return "";
+	}
+	
 }

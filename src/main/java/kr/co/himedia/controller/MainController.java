@@ -13,7 +13,7 @@ public class MainController {
 	
 	@GetMapping(value = "/")
 	public String main() {
-		logger.info("hello");
+		logger.info("hello! KIM KYOUNG WHOE");
 		return "{\"msg\":\"OK\"}";
 	}
 	
